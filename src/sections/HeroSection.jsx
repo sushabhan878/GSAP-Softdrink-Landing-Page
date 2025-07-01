@@ -3,7 +3,7 @@ const HeroSection = () => {
     <section className="bg-main-bg">
       <div className="hero-container">
         <img
-          src="images\hero-img.png"
+          src="images\static-img.png"
           alt="Hero Image"
           className="absolute bottom-0 left-1/2 -translate-x-1/2 object-auto scale-100 md:scale-150"
         />
@@ -20,6 +20,13 @@ const HeroSection = () => {
             <div className="hero-subtitle">
               <h1>Protein + Caffine</h1>
             </div>
+          </div>
+          <h2>
+            Live life to the fullest, with SPYLT: Shatter boredom and embrace
+            your inner kid with every deliciously smooth chug.
+          </h2>
+          <div className="hero-button">
+            <p>CHUG A SPYLT</p>
           </div>
         </div>
       </div>
