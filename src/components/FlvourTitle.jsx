@@ -18,7 +18,6 @@ const FlvourTitle = () => {
       scrollTrigger: {
         trigger: ".flavor-section",
         start: "top 30%",
-        markers: true,
       },
     });
     gsap.to(".flavor-text-scroll", {
@@ -27,7 +26,6 @@ const FlvourTitle = () => {
       scrollTrigger: {
         trigger: ".flavor-section",
         start: "top 10%",
-        markers: true,
       },
     });
 
@@ -38,7 +36,6 @@ const FlvourTitle = () => {
       scrollTrigger: {
         trigger: ".flavor-section",
         start: "top 1%",
-        markers: true,
       },
     });
   });
