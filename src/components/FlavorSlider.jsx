@@ -28,7 +28,7 @@ const FlavorSlider = () => {
       ref={sliderRef}
       classame="lg:h-dvh min-h-dvh md:min-h-fit w-full mt-0 md:mt-20 xl:mt-0"
     >
-      <div className="h-full w-full flex md:flex-row flex-col items-center 2xl:gap-72 lg:gap-52 md:gap-24 gap-7 flex-nowrap">
+      <div className="h-full w-full flex md:flex-row flex-col items-center 2xl:gap-72 lg:gap-52 md:gap-24 gap-7 flex-nowrap mt-16">
         {flavorlists.map((flavor) => (
           <div
             key={flavor.name}
